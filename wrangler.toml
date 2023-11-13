@@ -8,6 +8,14 @@ compatibility_date = "2023-10-02"
 # [vars]
 # MY_VARIABLE = "production_value"
 
+[vars]
+CORS_ORIGINS = ["https://ft-online.vercel.app", "https://ft.stupidname.tk"]
+
+[env.dev.vars]
+CORS_ORIGINS = ["*"]
+
+
+
 # Bind a KV Namespace. Use KV as persistent storage for small key-value pairs.
 # Docs: https://developers.cloudflare.com/workers/runtime-apis/kv
 # [[kv_namespaces]]

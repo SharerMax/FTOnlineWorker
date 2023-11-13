@@ -1,19 +1,19 @@
 {
   "name": "patient-bar-8237",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "deploy": "wrangler deploy",
-    "dev": "wrangler dev",
-    "start": "wrangler dev"
+    "dev": "wrangler dev --env dev",
+    "start": "wrangler dev --env dev"
   },
   "devDependencies": {
     "@antfu/eslint-config": "1.0.0-beta.21",
-    "@cloudflare/workers-types": "^4.20230419.0",
-    "eslint": "^8.51.0",
-    "itty-router": "^4.0.0",
-    "typescript": "^5.0.4",
-    "wrangler": "^3.0.0"
+    "@cloudflare/workers-types": "^4.20231025.0",
+    "eslint": "^8.53.0",
+    "itty-router": "^4.0.23",
+    "typescript": "^5.2.2",
+    "wrangler": "^3.15.0"
   }
 }
